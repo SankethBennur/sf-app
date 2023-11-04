@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f4f4f4;
+        }
+        .outer-container {
+            background-color: #6F90EB;
+            padding: 30px 30px;
+            max-width: 600px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .inner-container {
+            background-color: #fff;
+            width: 450px;
+            height: 545px;
+            border-radius: 5px;
+        }
+        .imageContainer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .imageContainer img {
+            height: 130px;
+            width: 130px;
+        }       
+        .headings {
+            text-align: center;
+            line-height: 20px;
+            margin-top: 10px;
+        }
+         h1 {
+            font-size: 24px;
+            font-weight: 600px;
+            color: #4B4B4B;
+        }
+         h2 {
+            font-weight: 500;
+            font-size: 20px;
+            color: #656464;
+        }
+         h3 {
+            color: #545454;
+            font-size: 64px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .logo img {
+            width: 137px;
+            height: 44px;
+            margin: 70px 20px;
+          }
+        .valid {
+            color: #EB5E5E;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer-container">
+        <div class="inner-container">
+            <div class="imageContainer">
+                <img src="https://assets.stickpng.com/thumbs/612266dc10aa310004f3983c.png" />
+            </div>
+            <div class="headings">
+                 <h1>Here is Your One Time Password</h1>
+                 <h2>to validate your email address</h2>
+                 <h3 id="otp">4516</h1>
+                 <h4 class="valid">Valid for 10min Only</h4>
+            </div>
+            <div class="logo">
+                <img  src="https://kasmo.co/wp-content/uploads/2023/02/Kasmo-logo-2.svg" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
