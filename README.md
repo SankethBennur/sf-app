@@ -1,4 +1,4 @@
-# HEROKU NERD (NODE-EXPRESS-REACT-DOCKER)
+# Connect your node.js app with Salesforce
 
-This repository is used to deploy a Node-express + React + Docker App
-thorugh Heroku using Github Integration.
+This project helps connect your salesforce account with a Node.js Server application,
+and begin operating on SF objects.
